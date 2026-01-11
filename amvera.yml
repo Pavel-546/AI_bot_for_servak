@@ -2,12 +2,7 @@ meta:
   environment: python
   toolchain:
     name: pip
-    version: "3"
-
-
-build:
-  skip: false
 
 run:
-  file: bot.py
+  command: python bot.py
   persistent: /data
