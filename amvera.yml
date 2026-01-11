@@ -1,0 +1,12 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.14
+
+build:
+  skip: false
+
+run:
+  file: bot.py
+  persistent: /data
